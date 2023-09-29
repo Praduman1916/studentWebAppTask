@@ -1,0 +1,50 @@
+/* StudentTable.css */
+
+.table-container {
+    margin: 30px;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .student-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the Edit and Delete buttons */
+  .edit-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,143 @@
+ .student-form {
+    text-align: center;
+  }
+  .add-button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+  
+  .add-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 800px;
+  }
+  
+  .modal-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-label {
+    margin-bottom: 10px;
+    text-align: left;
+
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+  }
+  
+  .subject-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .delete-button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c50f0f;
+  }
+  
+  .add-subject-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-subject-button:hover {
+    background-color: #1d832d;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .submit-button,
+  .close-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px; 
+  }
+  
+  .submit-button:hover,
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+
+.grid-item input,
+ .grid-item textarea {
+  height: 10px;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.grid-item select{
+  height: 30px;
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
